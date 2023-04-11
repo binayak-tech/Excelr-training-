@@ -6,8 +6,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
+    <style>
+        body,html{
+            margin: 0;
+            height: 100%;
+        }
+        h1{
+            font-size: 50px;
+        }
+        h2{
+            font-size: 35px;
+            font-weight: bold;
+        }
+        nav{
+            background-color:transparent;
+            text-align: right;
+            margin: 0;
+            padding: 10px 10px 0 0;
+        }
+        a{
+            margin-top: 10px;
+            font-size: 24px;
+            padding:8px 0 0 20px;
+            color: white;
+            text-decoration: none;
+
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+            height: 300px;   
+            border-collapse: collapse; 
+            font-size:1.4rem;    
+        }
+        footer{
+            background-color: #26282b;
+            height: 80px;
+            color: bisque;
+            text-align: center;
+            padding-top: 30px;
+            font-size: 13px;
+            
+        }
+        .head-row{
+            background-color: #26282b;
+            color: rgb(236, 226, 226);
+        }
+        .content{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 50px 30px 50px 30px;
+            background-color: #E86A33 ;
+            /* width: 600px;
+            height: 400px;
+            border-radius: 5%; */
+        }
+
+        .bg{
+            background-image: url("images/dog.jpeg");
+            margin: 0;
+            height: 100%;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .intro{
+            padding:80px 0 0 40px;
+            color: #fff;
+        }
+        .choco{
+            margin-top: 200px;
+            margin-left: 50px;
+            height: 200px;
+            width: 250px;
+            border-radius: 8px;
+            float: left;
+        }
+        .chicken{
+            margin: 100px 50px 10px 0;
+            height: 200px;
+            width: 250px;
+            border-radius: 8px;
+            float:right;
+        }
+    </style>
+
 </head>
-<body bgcolor="orange" style="background-image: url('dog.jpeg');">
-    <h1 style="color: white;"> Welcome to the Home page</h1>
+<body>
+    <div class="bg">
+        <!-- Navigation Bar -->
+        <nav>
+            <a target="_top" href="home.html">Home</a> 
+            <a target="_self" href="about.html">About</a> 
+            <a target="_self" href="contact.html">Contact</a>
+        </nav>
+
+        <div class="intro">
+            <h1>Hie ♥</h1>
+            <h2>I am Nugget</h2>
+            <h2>Welcome to my website </h2>
+        </div>
+    </div>
+    <div>
+        <img class="choco" src="images/chocolate.jpg" alt="chocolates" title="chocolate">
+        <img class="chicken" src="images/chicken.jpg" alt="chicken" title="spicy chicken leg">
+
+        <div class="content">
+            <h2>My favorite foods</h2>
+            <table>
+                <tr class="head-row">
+                    <th>Serial No.</th>
+                    <th>Item</th>
+                    <th>Serving</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Fried Chicken</td>
+                    <td>100gm</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Pedigree Pro</td>
+                    <td>60gm</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Pineapple Cake</td>
+                    <td>150gm</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Chocolates</td>
+                    <td>3pc</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Copyright: @Bk-tech</p>
+        <p>2023</p>
+    </footer>
+    
 </body>
 </html>
