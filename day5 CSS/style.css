@@ -1,57 +1,51 @@
 body{
-    background-color: cornflowerblue;
-    font-family: 'Times New Roman', Times, serif;
-    background-image: url('./images/brown\ background.jpeg');
+    text-align: center;
+    background-color: #A6D0DD;
+    background-image: url(./images/background\ hage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+}
+.first-div{
+    margin: auto;
+    width: fit-content;
+}
+.fa{
+    margin: auto;
+    padding: 30px;
+    width: 80px;
+    height: 80px;
+    font-size: 3.73em;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.3);
+    border-radius: 50%;
+    margin-left: 15px;
+    transition: 0.5s ease;
 }
 
+a{
+    color: black;
+}
+.fa:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,105,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: inline-flex;
+    transform: translate(15px, 5px) rotate(30deg);
+}
 h1{
-    border-bottom: 2px dotted black;
-    width: 30%;
-    text-align: center;
-    margin: auto;
-}
-
-div{
-    font-weight: 800;
-    font-family: 'Times New Roman', Times, serif;
-    margin: auto;
-}
-p{
-    text-align: center;
-    font-size: 42px;
-}
-
-div.a1{
-    font-style: italic;
-    font-size: inherit;
-    font-size: 4.8vh;
-    font-family: Arial, Helvetica, sans-serif;
-}
-div.a2{
-    font-style: inherit;
-    font-weight: lighter;
-    font-size: 39px;
-}
-div.a3{
-    font-style: oblique;
-    font-size: 2.5rem;
-    font-family: monospace;
-}
-
-button{
-    margin: auto;
-    width: 100px;
-    height: 40px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 50px;
-}
-
-i{
-    font-size: 160px;
     
+    margin: 20px 5px;
+    font-family: 'Sacramanto', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 12px;
+    width: 8%;
+    margin: 10px auto;
+}
+
+.initial-block{
+    margin-top: 70px;
 }
