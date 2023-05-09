@@ -1,5 +1,12 @@
-const para = document.getElementById("ranPara");
+// var ele;
+// ele = document.all[7];
+// console.log(ele);
 
-function clicked(){
-para.innerHTML = "Hie, This is Binayak Purohit."
+
+// document.getElementById("fun").onclick = () =>{
+ 
+// };
+
+function funOne(){
+    document.getElementById("heading-one").innerHTML = "button is clicked";
 }
