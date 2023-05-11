@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOPs concept</title>
+</head>
+<body>
+
+    <script>
+        // class hello{
+        //     a = "Hello everyone";
+        //     b = 20;
+        //     c = 30;
+
+        //     printMessage(){
+        //         console.log(this.a);
+        //     }
+
+        //     printSum(){
+        //         console.log(this.b+this.c);
+        //     }
+
+        // }
+
+        // let obj = new hello();
+        // obj.printMessage();
+        // obj.printSum();
+
+        // class newClass{
+        //     // constructor(){
+        //     //     name = "binayak";
+        //     //     console.log("Hello World");
+        //     // }
+
+        //     constructor(name,age){
+        //         this.sName = name;
+        //         this.myAge = age;
+
+        //         // console.log(sname);
+        //     }
+
+        //     message(){
+        //         console.log(`my name is ${this.sName} and my age is ${this.myAge}`)
+        //         console.log("my name is "+this.sName);
+        //     }
+        // }
+
+        // let obj1 = new newClass("binayak",24);
+        // obj1.message();
+
+        // class Addition{
+        //     constructor(a,b){
+        //         this.num1 = a;
+        //         this.num2 = b;
+
+        //         console.log(`In the constructor a = ${this.num1} and b = ${this.num2}`);
+        //     }
+
+        //     sum(){
+        //         console.log(`In the prototype method a + b = ${this.num1+this.num2}`);
+        //     }
+
+        //     static add(a,b){
+        //         console.log(`before swap a = ${a} and b = ${b}`) 
+        //         let temp = a;
+        //         a = b;
+        //         b = temp;
+        //         console.log(`After swap a = ${a} and b = ${b}`) 
+        //     }
+        // }
+
+        // let obj2 = new Addition(7,99);
+        // obj2.sum();
+        // Addition.add(10,20);
+
+
+        class miniCalculator{
+            constructor(a, b, op){
+                this.a = a;
+                this.b = b;
+                this.op = op;
+            }
+            calci(){
+
+                switch(this.op){
+                    case "+": console.log("sum = "+(this.a+this.b));
+                    break;
+                    case "-": console.log("sub = "+(this.a-this.b));
+                    break;
+                    case "*": console.log("mul = "+(this.a*this.b));
+                    break;
+                    case "/": console.log("div = "+(this.a/this.b));
+                    break;
+                    default: console.log("wrong operator");
+                }
+            }
+
+            addArr(arr1, arr2){
+                let arr3 = [...arr1, ...arr2];
+                console.log(arr3)
+            }
+
+            printObj(ob1,ob2){
+                console.log(ob1, ob2)
+            }
+        }
+        let arr1 = [1,2,3];
+        let arr2 = [4,5,6];
+
+        let ob1 = {
+            fname : "Binayak",
+            lname : "Purohit"
+        }
+
+        let ob2 = {
+            fname : "Jhon",
+            lname : "Doe"
+        }
+
+        let obj2 = new miniCalculator(10,5,"*");
+        obj2.calci();
+        obj2.addArr(arr1,arr2);
+        obj2.printObj(ob1,ob2)
+    </script>
+    
+</body>
+</html>
