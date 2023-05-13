@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inheritance</title>
+</head>
+<body>
+    <h1 id="heading"></h1>
+    <script>
+        const ele = document.getElementById("heading");
+
+        class employee{
+            constructor(name){
+                this.eName = name;
+                
+            }
+            eWork(){
+                console.log("Employee name is "+this.eName)
+                console.log("Employee is working")
+            }
+        } 
+
+        // javaScript uses extends keyword to inherit the properties of the parent class
+        // this is an example of single inheritance
+        class manager extends employee{
+            constructor(name){
+                super(name);
+            }
+            mWork(){
+                this.eWork();
+                return this.eName + " is working for manager";
+            }
+        }
+
+        const obj = new manager("Binayak");
+        ele.innerHTML = obj.mWork();
+    </script>
+</body>
+</html>
