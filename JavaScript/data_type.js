@@ -17,6 +17,8 @@ var_name = 234; // we can create a variable without using any keyword this takes
 let num = 10;     // integer
 let pi = 3.1415;  // floating-point
 
+let newNum = "kd"/27;  // NaN (not a number)
+
 
 // 2. STRING
 
@@ -54,7 +56,23 @@ let a;
 console.log(a);
 
 
-// 6. OBJECT
+// 6. SYMBOL
+
+let firstName = Symbol('first name'),
+    lastName = Symbol('last name');
+
+    console.log(firstName); // Symbol(first name)
+    console.log(lastName); // Symbol(last name)
+
+
+    // 7. bigint it takes values larger than 2^53 - 1
+
+    let bigInteger = 98723782359893845773977983245834n;
+    console.log(bigInteger);
+    console.log(typeof bigInteger);
+
+
+    // 6. OBJECT
 
 const person = {
     name: 'Binayak',
