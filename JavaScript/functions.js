@@ -34,3 +34,26 @@ const avg = (arr) => {
     
 arr = [10,10,10,10,10];
 console.log(avg(arr));
+
+
+
+// using arguments to access passed values
+function add() {
+    let sum = 0;
+    for (let ele of arguments){
+        sum += ele; 
+    }
+    return sum;
+  }
+
+const total = add(10,2,93)
+console.log(total);
+
+
+// recursive function
+function countdown(num){
+    console.log(num);
+    return num > 1 ? countdown(num-1) : num === 1 ? console.log("Happy New Year 🎉🎉🎊") : 0 ;
+}
+
+countdown(10);
