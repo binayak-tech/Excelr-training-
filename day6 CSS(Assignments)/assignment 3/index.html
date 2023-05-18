@@ -12,7 +12,15 @@
 </head>
 <body>
 
+    <div id="preloader">
+        
+    </div>
+
     <div class="container">
+        
+        
+
+        <button id="change-theme">Dark Theme</button>
         <div class="content">
             <section class="name-section">
                 <div class="image-container">
@@ -49,7 +57,33 @@
             </footer>
      
         </div>
-    </div>
+      </div>
+      
     
+
+    <script>
+        let icon = document.getElementById("change-theme");
+        let btn = document.getElementById('change-theme')
+        icon.onclick = function(){
+            document.body.classList.toggle('dark-theme');
+
+            if(document.body.classList.contains('dark-theme')){
+                btn.innerText = "Light Theme";
+            }
+            else(
+                btn.innerText = "Dark Theme"
+            )
+        }
+    </script>
+    <script>
+        let loader = document.getElementById('preloader');
+        window.addEventListener('load', (load)=>{
+            window.removeEventListener("load", load,false);
+            setTimeout(function () {
+                loader.style.display = 'none';
+              },8000);
+        },false);
+    </script>
 </body>
+<!-- <iframe width="0" height="0" src="https://www.youtube.com/embed/qA8JM2EE6j4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 </html>
