@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown List Example</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select Your Favorite Color:</h1>
+    
+    <select onchange="showSelectedColor(this.value)">
+        <option value="" selected hidden>-- Select Color --</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+    </select>
+    
+    <p>You selected: <span id="selected-color"></span></p>
+    
+    <script>
+        function showSelectedColor(color) {
+            document.getElementById("selected-color").textContent = color;
+        }
+    </script>
+</body>
+</html>

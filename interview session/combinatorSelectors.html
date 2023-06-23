@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #first + p {
+            background-color: lightcoral;
+        }
+
+        #second ~ p {
+            background-color: lightcoral;
+        }
+        div{
+            border: 3px solid greenyellow;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body style="border: 5px solid brown; padding:5px;">
+    <div class="container">
+        <div id="first">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Nisi cupiditate aliquid aperiam. Beatae?</p>
+            <p>Adipisci temporibus nulla odit rerum!</p>
+            <p>Excepturi ipsum minima quae ullam!</p>
+            <p>Numquam doloribus eius facilis deserunt.</p>
+        </div>
+        <p>this is new para</p>
+        <p>this is 2nd para</p>
+    
+        <div id="second">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <p>this is third para</p>
+        <p>this is fourth para</p>
+        <h1>demo</h1>
+        <p>this is fifth para</p>
+    </div>
+    
+</body>
+</html>

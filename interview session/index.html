@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant Menu</title>
+    <style>
+        li{
+            list-style-type: none;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            font-size: 2rem;
+        }
+        h2{
+            font-size: 1.5rem;
+        }
+        span{
+            color:darkgreen;
+            font-weight: 900;
+        }
+
+        .type{
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body{
+            font-family: sans-serif;
+            background: rgb(222,205,11);
+            background: linear-gradient(90deg, rgba(222,205,11,0.9563106796116505) 1%, rgba(224,128,18,1) 53%, rgba(255,89,0,1) 100%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Bk's kitchen</h1>
+    <br>
+    <br>
+    <h2>MENU</h2>
+    <ul id="breakfast">
+        <li class="type"><strong>Breakfast</strong></li>
+        <br>
+        <ol>
+            <li>Idli <span>₹40</span></li>
+            <li>Wada <span>₹40</span></li>
+            <li>Upma <span>₹40</span></li>
+            <li>Dosa
+                <ol>
+                    <li>Masala dosa <span>₹40</span></li>
+                    <li>Onion dosa <span>₹40</span></li>
+                </ol>
+            </li>
+        </ol>
+    </ul>
+    <ul id="lunch">
+        <li class="type"><strong>Lunch</strong></li>
+        <br>
+        <ol>
+            <li>Chicken Biryani<span>₹150</span></li>
+            <li>Mutton Biryani<span>₹200</span></li>
+            <li>Veg Meal<span>₹100</span></li>
+        </ol>
+    </ul>
+</body>
+</html>
