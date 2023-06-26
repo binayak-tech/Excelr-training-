@@ -63,8 +63,8 @@ public class Loops {
     }
 
     public static void main(String[] args) {
-//        for_loop();
-//        while_loop();
+        for_loop();
+        while_loop();
         do_while_loop();
     }
 }
