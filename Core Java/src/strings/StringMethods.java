@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class StringMethods {
     public static void main(String[] args) {
+
+        // VARIABLE DECLARATIONS
         String s1="binayak";
         String s2="binayak";
         String s3="Binayak";
@@ -13,6 +15,8 @@ public class StringMethods {
         String firstName = "John ";
         String lastName = "Doe";
         String trimThis = "    My name is Bk    ";
+
+        // --------------------- METHODS -------------------------
 
         // concatination
         System.out.println(firstName.concat(lastName));
