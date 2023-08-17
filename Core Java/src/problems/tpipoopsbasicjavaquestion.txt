@@ -1,0 +1,68 @@
+java question:-
+-----------------
+coading question
+mcq based
+concept based
+
+------------------------------------
+coading question:-
+---------------------
+  problem statment:-
+    oops based:-
+	-------------
+	  design a class Account, 
+	     with the field id,name,balace,                  ---> oops concept
+		 initilize the value using constructor
+		 define a withdraw method and deposit method
+     
+    logic based:-
+   ---------------
+        find the second largest element in the array,..etc	( you should know array)	
+   
+-------------------------------------------------------------------------------------------
+java question:-
+-------------------
+1)what is JVM..? what is the purpose of JVM..?
+2)what is byte code..?
+3)difference between for and while..?
+4)difeerence while and do while..?
+5)adv of arrays..?
+6)features of java..?
+7)what is platform independent..?
+8)what is identifier..?
+9)what is keyword..? list some of the keywords..?
+10)identifier rules...? 
+11)what is non-primitive data type..?
+12)what is class and object explain with example..?
+13)what is abstraction..?
+14)what is constructor and why we use it..?
+15)what are the type of constructor..?
+16)what is this keyword..?
+17)what is inheritance and its type..?
+      is-a relationship
+	  
+	  student is a person
+	  employee is a person
+	  manager is a person
+	 
+	  
+18)why multiple inheritance is not supported..?
+19)what is interface..?
+20)difference abstract class and interface.?
+21)what is final keyword..? where its applicable..?
+     variable  ---> we cannot modify the value.
+	 class     ---> we cannot extend.
+	 method    ---> we cannot override.
+22)what is super keyword..?
+23)what is encapsulation..?
+24) what is data hiding..?
+25)what is polymorphism..?and its type..?
+26)what is method overloading..?
+27)what is method overloading..?
+28)what is upcasting..?
+29)what is type casting..?
+30)which is the super class of all the java class..?
+
+
+
+
